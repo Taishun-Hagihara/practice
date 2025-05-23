@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+    transition: background-color 0.3s linear;
+  }
+  
+  button {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
