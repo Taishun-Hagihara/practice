@@ -50,7 +50,7 @@ function render() {
             span.classList.add("completed");
         }
         donebutton.classList.add("done-button");
-        donebutton.classList.add("delete-button");
+        deletebutton.classList.add("delete-button");
 
 
         donebutton.disabled = task.completed;
