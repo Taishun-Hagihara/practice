@@ -14,7 +14,7 @@ async function fetchUser() {
       userList.appendChild(li);
     })
 
-  }catch {
+  }catch (error){
 
     const errorMessage = document.getElementById("error-message");
     errorMessage.textContent = "データの取得に失敗しました：" + error.message;
