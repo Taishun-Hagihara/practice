@@ -9,7 +9,7 @@ document.getElementById("search-btn").addEventListener("click" ,async () => {
   errorMsg.textContent = "";
 
   try{
-    const response = await fetch("https://pokeapi.co/api/v2/pokemon/${name}");
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
 
     if(!response.ok){
       throw new Error("ポケモンが見つかりません")
